@@ -1,0 +1,3 @@
+lunch: 90
+dinner: 60
+delivery: 130

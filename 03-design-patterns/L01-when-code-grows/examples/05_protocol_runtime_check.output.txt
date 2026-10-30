@@ -1,0 +1,2 @@
+Bike -> Shubra
+TypeError: Instance and class checks can only be used with @runtime_checkable protocols

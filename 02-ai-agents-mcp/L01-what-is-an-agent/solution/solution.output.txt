@@ -1,0 +1,4 @@
+step 1: branch_open(maadi) -> False
+step 2: branch_open(dokki) -> True
+step 3: check_stock(koshary_large) -> 2
+answer: Maadi is closed. Dokki has 2 large.

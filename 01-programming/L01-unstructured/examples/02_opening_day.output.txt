@@ -1,0 +1,4 @@
+lunch: 75
+dinner: 50
+delivery: 110
+cash: 235 rice: 25

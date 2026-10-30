@@ -1,0 +1,8 @@
+Tuktuk: back streets to Shubra
+Traceback (most recent call last):
+  File "01_if_elif_ladder.py", line 22, in <module>
+    print(send(PrivateCar("PC-4"), "Maadi"))
+          ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "01_if_elif_ladder.py", line 19, in send
+    raise TypeError(f"no rule for {type(v).__name__}")
+TypeError: no rule for PrivateCar
