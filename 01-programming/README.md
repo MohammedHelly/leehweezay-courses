@@ -3,13 +3,13 @@
 <div dir="rtl" align="right">
 
 إزاي أساليب البرمجة اتطورت، من الـ Unstructured Programming لحد الـ Object-Oriented Programming (البرمجة الشيئية).
-هنتابع مثال واحد طول الكورس: نظام حسابات لمحل كشري «كشري عم صابر»، بيكبر خطوة بخطوة.
+هنتابع مثال واحد طول الكورس: نظام حسابات لمحل «حلويات لمّة»، بيكبر خطوة بخطوة.
 المطلوب: أساسيات Python (variables، وif، وloops).
 
 </div>
 
 How programming styles evolved, from unstructured programming to object-oriented programming.
-One case study runs through the whole course: the billing system of a koshary shop, «كشري عم صابر», which grows step by step.
+One case study runs through the whole course: the billing system of a sweets shop, «حلويات لمّة · Lamma Sweets», which grows step by step.
 Prerequisite: basic Python (variables, conditions, loops).
 
 | Lesson | Topic | الفكرة في سطر |

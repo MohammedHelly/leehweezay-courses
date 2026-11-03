@@ -1,5 +1,5 @@
-lunch: 75
-dinner: 50
+morning: 75
+evening: 50
 delivery: 110
-takeaway: 125
-cash: 360 rice: 25
+party: 125
+cash: 360 sugar: 25

@@ -1,4 +1,4 @@
-lunch: 90
-dinner: 60
+morning: 90
+evening: 60
 delivery: 130
-cash: 280 rice: 30
+cash: 280 sugar: 30

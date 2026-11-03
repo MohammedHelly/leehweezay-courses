@@ -2,12 +2,12 @@
 
 <div dir="rtl" align="right">
 
-بيكمّل بعد كورس 01. نفس مثال «كشري عم صابر»: المحل بقى سلسلة، والكود كبر.
+بيكمّل بعد كورس 01. نفس مثال «حلويات لمّة»: المحل بقى سلسلة، والكود كبر.
 كل درس: مشكلة حقيقية في الكود ← الـ design pattern اللي بيحلها ← الطريقة الـ Pythonic ← إمتى ما نستخدموش.
 
 </div>
 
-This course continues after Course 01, with the same case study: «كشري عم صابر» is now a chain, and its code has grown.
+This course continues after Course 01, with the same case study: «حلويات لمّة · Lamma Sweets» is now a chain, and its code has grown.
 Each lesson follows the same path: a real problem in the code → the pattern that solves it → the Pythonic way → when not to use it.
 
 | Lesson | English | العربي |

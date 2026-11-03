@@ -2,7 +2,7 @@
 # C03 · L01 · solution: polymorphism · Python 3.13 · 2026
 # Fixes problem 2 (the vehicle if-chain) with polymorphism.
 # Problems 1, 3, 4 stay on purpose: lessons 02-04 fix them.
-PLATE_PT = 3500                     # piastres (int)
+BOX_PT = 3500                       # piastres (int)
 
 class Branch:
     def __init__(self, city):
@@ -32,14 +32,14 @@ class SmsGateway:
 def egp(pt):
     return f"{pt // 100}.{pt % 100:02d} EGP"
 
-def checkout(branch, vehicle, plates):
-    total = plates * PLATE_PT
+def checkout(branch, vehicle, boxes):
+    total = boxes * BOX_PT
     if isinstance(branch, (CairoDeliveryBranch,
                            AlexDeliveryBranch)):
         total += vehicle.fee_pt()  # one message
     if isinstance(branch, (AlexDeliveryBranch,
                            AlexDineInBranch)):
-        total += 250 * plates
+        total += 250 * boxes
     SmsGateway().send(f"Your bill: {egp(total)}")
     return total
 

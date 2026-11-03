@@ -2,7 +2,7 @@
 # C02 · L01 · exercise solution: a second tool · Python 3.13 · 2026
 # Exercise: add a second tool, branch_open(branch),
 # and a PLAN that uses it first. run_agent stays the same.
-STOCK = {"koshary_large": 2, "koshary_small": 10}
+STOCK = {"basbousa_large": 2, "basbousa_small": 10}
 OPEN = {"dokki": True, "maadi": False}
 
 def check_stock(item):
@@ -16,7 +16,7 @@ TOOLS = {"check_stock": check_stock,
 
 PLAN = [("branch_open", "maadi"),
         ("branch_open", "dokki"),
-        ("check_stock", "koshary_large"),
+        ("check_stock", "basbousa_large"),
         ("answer", "Maadi is closed. Dokki has 2 large.")]
 
 def run_agent(choose, max_steps=5):  # unchanged from L01

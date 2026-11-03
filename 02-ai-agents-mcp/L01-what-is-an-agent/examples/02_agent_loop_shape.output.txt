@@ -1,5 +1,5 @@
-step 1: check_stock(koshary_large) -> 2
-step 2: check_stock(koshary_small) -> 10
+step 1: check_stock(basbousa_large) -> 2
+step 2: check_stock(basbousa_small) -> 10
 answer: Only 2 large. 10 small available.
 ---
 step 1: check_stock(rice_pudding) -> 0

@@ -1,18 +1,17 @@
-# كورس 01 · الدرس 01 · إضافي: الـ Replace All غيّر كمية الرز
-# Course 01 · Lesson 01 · Bonus: Replace All changed the rice stock
-# Python 3.13 · 2026 · LeehWeEzay (ليه وإزاي)
-rice_kg = 35          # global data: stock
+# كورس 01 · درس 01 · إضافي: استبدال الكل غيّر كمية السكر
+# C01 · L01 · bonus: Replace All changed the sugar stock · Python 3.13 · 2026
+sugar_kg = 35         # global data: stock
 cash = 0              # global data: drawer
-total = 3 * 35        # lunch: 3 plates
+total = 3 * 35        # morning: 3 pieces
 cash = cash + total
-print("lunch:", total)
-total = 2 * 35        # dinner: 2 plates
+print("morning:", total)
+total = 2 * 35        # evening: 2 pieces
 cash = cash + total
-print("dinner:", total)
+print("evening:", total)
 total = 4 * 35 + 10   # delivery: 4 + fee
 cash = cash + total
 print("delivery:", total)
-total = 5 * 35        # takeaway: 5 plates (new copy)
+total = 5 * 35        # party: 5 pieces (new copy)
 cash = cash + total
-print("takeaway:", total)
-print("cash:", cash, "rice:", rice_kg)
+print("party:", total)
+print("cash:", cash, "sugar:", sugar_kg)

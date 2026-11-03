@@ -15,11 +15,13 @@
 | `examples/01_global_variable.py` | One line writes a global variable, another reads it | سطر بيغيّر الـ global variable وسطر بيقراه |
 | `examples/02_opening_day.py` | Three bills, the same three steps | تلات حسابات بنفس الخطوات |
 | `examples/03_price_increase.py` | The price changes; the delivery copy is missed | السعر اتغيّر ونسخة التوصيل ماتعدّلتش |
-| `examples/04_replace_all_mistake.py` | Common mistake: Replace All also changes the stock | خطأ شائع: الـ Replace All غيّر كمية الرز |
+| `examples/04_replace_all_mistake.py` | Common mistake: Replace All also changes the stock | خطأ شائع: الـ Replace All غيّر كمية السكر |
 | `examples/05_review_each_match.py` | The right way: review each search match | الطريقة الصحيحة: Find Next ومراجعة كل نتيجة |
 | `examples/06_price_in_a_variable.py` | One price variable, but the steps are still copied | السعر في variable واحد والخطوات لسه مكررة |
 | `examples/07_no_goto_in_python.py` | Python has no `goto` | Python مافيهاش `goto` |
-| `exercise/exercise_start.py` | Exercise: add a takeaway bill, change the price, count your edits | التمرين: أضف حساب سفري، غيّر السعر، وعدّ التعديلات |
+| `exercise/exercise_start.py` | Exercise: add a party bill, change the price to 35 by hand, count your edits | التمرين: أضف حساب عزومة، غيّر السعر لـ 35 بالإيد، وعدّ التعديلات |
 | `solution/solution.py` | Solution | الحل |
+| `solution/bonus_replace_all.py` | Bonus: what Replace All 25 → 35 does to the sugar stock | إضافي: الـ Replace All عمل إيه في كمية السكر |
+| `handout/L01_handout.pdf` | Lesson handout (AR + EN, 4 pages) | ملخص الدرس (PDF) |
 
 Prices are illustrative · الأسعار للتوضيح فقط · Python 3.13 · 2026

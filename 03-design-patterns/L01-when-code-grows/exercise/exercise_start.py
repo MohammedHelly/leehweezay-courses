@@ -1,7 +1,7 @@
 # كورس 03 · درس 01 · تمرين: حدّد المشاكل الأربع في الكود
 # C03 · L01 · exercise: find 4 problems · Python 3.13 · 2026
 # Money = whole piastres (int). Prices are illustrative.
-PLATE_PT = 3500             # large plate = 35.00 EGP
+BOX_PT = 3500               # basbousa box = 35.00 EGP
 
 class Branch:
     def __init__(self, city):
@@ -22,8 +22,8 @@ class SmsGateway:
 def egp(pt):
     return f"{pt // 100}.{pt % 100:02d} EGP"
 
-def checkout(branch, vehicle, plates):
-    total = plates * PLATE_PT
+def checkout(branch, vehicle, boxes):
+    total = boxes * BOX_PT
     if isinstance(branch, (CairoDeliveryBranch,
                            AlexDeliveryBranch)):
         if isinstance(vehicle, Tuktuk):
@@ -32,7 +32,7 @@ def checkout(branch, vehicle, plates):
             total += 5000
     if isinstance(branch, (AlexDeliveryBranch,
                            AlexDineInBranch)):
-        total += 250 * plates       # Alex price difference
+        total += 250 * boxes        # Alex price difference
     SmsGateway().send(f"Your bill: {egp(total)}")
     return total
 
