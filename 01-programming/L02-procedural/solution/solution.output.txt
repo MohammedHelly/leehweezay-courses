@@ -1,0 +1,4 @@
+start: 25
+after morning: 19
+after evening: 15
+after delivery: 7
