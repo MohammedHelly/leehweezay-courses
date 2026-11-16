@@ -1,0 +1,5 @@
+morning: 105
+evening: 70
+delivery: 150
+party: 175
+cash: 500
