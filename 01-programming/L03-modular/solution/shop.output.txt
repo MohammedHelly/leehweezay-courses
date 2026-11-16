@@ -1,0 +1,5 @@
+morning: 105
+evening: 70
+delivery: 135
+sales today: 310
+sugar left: 20 kg
