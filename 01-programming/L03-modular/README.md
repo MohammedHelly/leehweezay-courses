@@ -28,6 +28,7 @@ In this lesson, do **not** add `-I` (used in Lesson 2): `-I` stops Python from f
 | `examples/03_quiz_import_only/` | Lesson quiz: `import stock`, then `report()` with no dot: what happens? (no output file: the answer comes at the start of Lesson 4) | <div dir="rtl" align="right">‏سؤال الدرس: إيه اللي هيحصل؟ (من غير ملف output: الإجابة في أول الدرس الرابع)‏</div> |
 | `exercise/` | Exercise start (= `01_modules`); `shop.output.txt` is the output **before** your change | <div dir="rtl" align="right">‏بداية التمرين (زي 01_modules)؛ و shop.output.txt هو الناتج قبل ما تعدّل‏</div> |
 | `solution/` | Solution: new `menu.py` holds the price (35); `billing.py` reads `menu.price` | <div dir="rtl" align="right">‏الحل: menu.py فيه السعر (35)، و billing.py بياخده من menu.price‏</div> |
+| `handout/L03_handout.pdf` | Lesson handout (AR + EN, 6 pages; no quiz answer) | <div dir="rtl" align="right">‏ملخص الدرس (PDF)‏</div> |
 
 ## Exercise
 
@@ -45,4 +46,4 @@ Each other folder has `shop.output.txt` with the real output (in tracebacks the 
 
 <div dir="rtl" align="right">‏الأسعار للتوضيح فقط.‏</div>
 
-Prices are illustrative · Python 3.13 · 2026 · FILE VERSION 2 · 2026-11-16 (V1 2026-11-15; V2: right-to-left Arabic blocks, run without `-I`, exercise steps, quiz output held back until Lesson 4 — Fable repo review)
+Prices are illustrative · Python 3.13 · 2026 · FILE VERSION 3 · 2026-11-16 (V3: handout PDF; V1 2026-11-15; V2: right-to-left Arabic blocks, run without `-I`, exercise steps, quiz output held back until Lesson 4 — Fable repo review)
