@@ -1,0 +1,8 @@
+morning: 90
+evening: 60
+delivery: 115
+Traceback (most recent call last):
+  File "…/L03-modular/examples/02_import_star_mistake/shop.py", line 10, in <module>
+    report(cash)                       # which report?
+    ~~~~~~^^^^^^
+TypeError: report() takes 0 positional arguments but 1 was given
