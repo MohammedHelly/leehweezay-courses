@@ -1,0 +1,4 @@
+morning: 90
+evening: 60
+delivery: 115
+cash: 265
