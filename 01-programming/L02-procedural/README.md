@@ -43,6 +43,7 @@ Try the quiz yourself before you run `05_quiz_add_fee.py`.
 | `examples/12_short_same_name.py` | Short: the sales report disappeared… why? | <div dir="rtl" align="right">‏الـ Short: تقرير المبيعات اختفى… ليه؟‏</div> |
 | `exercise/exercise_part2_start.py` | Exercise: add a party bill with ONE call, set the price to 35, count your edits | <div dir="rtl" align="right">‏التمرين: أضف حساب عزومة بـ call واحد، وغيّر السعر لـ 35، وعدّ الأسطر اللي عدّلتها‏</div> |
 | `solution/solution_part2.py` | Solution: only 2 lines edited | <div dir="rtl" align="right">‏الحل: سطرين بس اتعدّلوا‏</div> |
+| `handout/L02_handout.pdf` | Lesson handout, Part 1 + Part 2 (AR + EN, 9 pages) | <div dir="rtl" align="right">‏ملخص الدرس (PDF)‏</div> |
 
 Part 2 quiz (answer at the start of Lesson 3): in `08_make_bill.py`, when `print` finishes inside `make_bill`, where exactly does execution go?
 
@@ -52,4 +53,4 @@ Every `.py` file has its real output next to it in `.output.txt` (Python 3.13, `
 
 <div dir="rtl" align="right">‏الأسعار للتوضيح فقط.‏</div>
 
-Prices are illustrative · Python 3.13 · 2026 · FILE VERSION 2 · 2026-11-16 (V1 2026-11-11: Part 1 only; git keeps V1)
+Prices are illustrative · Python 3.13 · 2026 · FILE VERSION 3 · 2026-11-16 (V1 2026-11-11: Part 1 only; V2 2026-11-16: Part 2; V3: handout PDF; git keeps every version)
