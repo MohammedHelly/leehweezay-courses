@@ -16,8 +16,8 @@ Prerequisite: basic Python (variables, conditions, loops).
 |---|---|---|
 | [L01](L01-unstructured/) | Unstructured Programming | البرنامج كله أوامر في مكان واحد، بتتنفذ بالترتيب |
 | [L02](L02-procedural/) | Procedural Programming | نكتب الخطوات مرة واحدة ونستدعيها بالاسم |
-| L03 | Modular Programming | نقسم البرنامج لـ modules، كل واحد ليه مسؤولية |
-| L04 | Why Modular Programming Was Not Enough | ليه التقسيم لوحده ماكفاش؟ |
+| [L03](L03-modular/) | Modular Programming | نقسم البرنامج لـ modules، كل واحد ليه مسؤولية |
+| L04 | The Limits of Modular Programming | حدود الـ Modular Programming |
 | L05 | The Object-Oriented Approach | البيانات والـ functions بتاعتها في مكان واحد |
 | L06 | Objects and Classes | الـ class قالب، والـ object نسخة معمولة منه |
 | L07 | Inheritance | class جديد بياخد من class موجود |
