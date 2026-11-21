@@ -1,0 +1,3 @@
+Dokki sugar: 15 kg
+Maadi sugar: 12 kg
+<class 'tuple'>
