@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "…/L04-limits-of-modular/examples/04_no_global_mistake/shop.py", line 5, in <module>
+    stock.use(5)
+    ~~~~~~~~~^^^
+  File "…/L04-limits-of-modular/examples/04_no_global_mistake/stock.py", line 6, in use
+    sugar_kg = sugar_kg - kg       # no global line
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'sugar_kg' where it is not associated with a value
