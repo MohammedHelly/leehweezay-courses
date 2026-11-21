@@ -1,0 +1,3 @@
+sugar left: 15000 g
+closing the day
+sugar left: 0 g
