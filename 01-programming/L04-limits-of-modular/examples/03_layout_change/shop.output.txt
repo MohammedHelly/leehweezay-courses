@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "…/L04-limits-of-modular/examples/03_layout_change/shop.py", line 6, in <module>
+    stock.use(5)
+    ~~~~~~~~~^^^
+  File "…/L04-limits-of-modular/examples/03_layout_change/stock.py", line 7, in use
+    sugar_kg = sugar_kg - kg
+               ~~~~~~~~~^~~~
+TypeError: unsupported operand type(s) for -: 'dict' and 'int'
