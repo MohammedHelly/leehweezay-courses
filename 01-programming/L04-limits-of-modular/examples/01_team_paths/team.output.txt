@@ -1,0 +1,4 @@
+team: 2 · paths: 1
+team: 5 · paths: 10
+team: 10 · paths: 45
+team: 20 · paths: 190
